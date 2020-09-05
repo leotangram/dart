@@ -1,5 +1,5 @@
 main() {
-  // Numbers
+  // =========================== Numbers
   int a = 10;
   double b = 5.5;
   int c; // int c = null
@@ -7,11 +7,21 @@ main() {
   int _a = 30;
   double $b = 45.95;
 
-  print($b);
+  // print($b);
   // print(y);
   // print(z);
 
-  // Strings
+  // =========================== Strings
+  String name = 'Tony';
+  String name2 = "Tony";
+  String name3 = 'O\'Connor';
+  String multiline = '''
+    Hello,
+    How are you!
+    O'Connor
+  ''';
+
+  print(multiline);
 
   // Booleans
 
