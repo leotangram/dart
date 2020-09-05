@@ -30,9 +30,25 @@ main() {
   active = false;
   active = !active;
 
-  print(active);
+  // print(active);
 
   // Arrays
+  // List<String> characters = ['Superman', 'Batman'];
+  List<String> characters = new List();
+  // characters.add('Superman');
+  // characters.add('Batman');
+  // characters.addAll(['Superman', 'Batman', 'Flash']);
+  characters..add('Batman')..add('Superman');
+
+  // print(characters);
+
+  List<String> villians = new List(3);
+  // villians.addAll(['Lex', 'Red Skull', 'Doom']);
+  villians[0] = 'Lex';
+  villians[1] = 'Joker';
+  villians[2] = 'Doom';
+
+  print(villians);
 
   // Sets
 
