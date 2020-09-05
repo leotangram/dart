@@ -21,9 +21,16 @@ main() {
   O'Connor
   ''';
 
-  print(multiline);
+  // print(multiline);
 
-  // Booleans
+  // =========================== Booleans
+  bool active = true;
+  bool running;
+
+  active = false;
+  active = !active;
+
+  print(active);
 
   // Arrays
 
