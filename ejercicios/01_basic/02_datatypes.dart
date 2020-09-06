@@ -50,11 +50,24 @@ main() {
 
   // print(villians);
 
-  // Sets
+  // =========================== Sets
   Set<String> villians2 = {'Lex', 'Joker', 'Doom'};
   villians2.add('Reverse Flash');
 
-  print(villians2);
+  // print(villians2);
 
-  // Maps
+  // =========================== Maps
+  Map<dynamic, String> ironman = {
+    'name': 'Tony Stark',
+    'power': 'Clever',
+    // 'age': 60,
+    10: 'Nivel de energía'
+  };
+  // print(ironman[10]);
+
+  Map<String, dynamic> captain = new Map();
+
+  captain.addAll({'name': 'Steve', 'power': 'drugs'});
+
+  print(captain);
 }
