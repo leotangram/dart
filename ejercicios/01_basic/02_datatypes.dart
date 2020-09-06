@@ -48,9 +48,13 @@ main() {
   villians[1] = 'Joker';
   villians[2] = 'Doom';
 
-  print(villians);
+  // print(villians);
 
   // Sets
+  Set<String> villians2 = {'Lex', 'Joker', 'Doom'};
+  villians2.add('Reverse Flash');
+
+  print(villians2);
 
   // Maps
 }
